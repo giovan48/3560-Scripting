@@ -22,3 +22,4 @@ redirect history output to a file named `linuxlab0gal02.txt` in the current dire
 | Export history with redirect | `history > linuxlab0gal02.txt` | ✅      |
 | Use SGL naming               | `linuxlab0gal02.txt`           | ✅      |
 
+#copy and paste bash quick refence from the course materials here
