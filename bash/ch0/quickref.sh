@@ -4,6 +4,7 @@
 #0 - Quick reference commands using in class and labs
 ##- grep -> search the contents of files for a specific pattern
     #-c #count the number of lines that match the pattern
+    # wc -l #count the number of lines in a file or output
     #-E #use extended regular expressions for more complex pattern matching
     #-i #ignore case when searching for the pattern
     #-P #use Perl-compatible regular expressions for advanced pattern matching
@@ -15,6 +16,8 @@
     #-H #display the filename for each match
     #-l #display only the filenames that contain the pattern
     #-L #display only the filenames that do not contain the pattern
+    # -q #quiet mode, suppress output and return only the exit status of the command
+    # pgrep #search for processes that match a specific pattern
 
 ## files and directories comparisson commands
     #-d #check if a directory exists
@@ -24,6 +27,10 @@
     #-x #check if a file exists and is executable
 
 ## literal comparisson commands
+    # -e #check if a file exists
+    # -r #check if a file exists and is readable
+    # -w #check if a file exists and is writable
+    # -x #check if a file exists and is executable
     #-eq #check if two strings are equal
     #-ne #check if two strings are not equal
     #-gt #check if a string is greater than another string
@@ -70,6 +77,9 @@
     #|| #execute the next command only if the previous command failed (non-zero exit status)
         #cd fakefolder || echo "cd failed" # This will attempt to change to a non-existent directory and if it fails, it will print "cd failed"
         #ping google.com || echo "Network appears down" # This will attempt to ping google.com and if it fails, it will print "Network appears down"
+
+## stat command - display detailed information about a file or directory, including its size, permissions, ownership, and timestamps
+    #stat filename # This will display detailed information about the file named "filename"
 
 
 

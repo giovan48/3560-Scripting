@@ -3,8 +3,11 @@
 #This script contains a collection of commonly used Linux commands
 
 ## Shortcuts
-#To show numbers lines in ubuntu terminal, alt + shift + 3  | esc + #
-
+#To show numbers lines in ubuntu terminal
+    # alt + shift + 3  | esc + # 
+#To make line numbers permanent for the user, nano ~/.nanorc and add set linenumbers
+    #nano ~/.nanorc
+    #set linenumbers
 
 
 #Output Commands######
