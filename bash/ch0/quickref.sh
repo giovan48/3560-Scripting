@@ -19,7 +19,7 @@
     # -q #quiet mode, suppress output and return only the exit status of the command
     # pgrep #search for processes that match a specific pattern
 
-## files and directories comparisson commands
+## files and directories comparison commands
     #-d #check if a directory exists
     #-e #check if a file exists
     #-r #check if a file exists and is readable
@@ -31,12 +31,14 @@
     # -r #check if a file exists and is readable
     # -w #check if a file exists and is writable
     # -x #check if a file exists and is executable
-    #-eq #check if two strings are equal
-    #-ne #check if two strings are not equal
-    #-gt #check if a string is greater than another string
-    #-lt #check if a string is less than another string
-    #-ge #check if a string is greater than or equal to another string
-    #-le #check if a string is less than or equal to another string
+## numerical comparisson commands
+    #-eq #check if two numbers are equal
+    #-ne #check if two numbers are not equal
+    #-gt #check if a number is greater than another number
+    #-lt #check if a number is less than another number
+    #-ge #check if a number is greater than or equal to another number
+    #-le #check if a number is less than or equal to another number
+    
     #Testing  strings variables using [[ command ]]
         #71 echo "enter str1"
         #72 read str1
@@ -64,7 +66,7 @@
         #75 echo "Num1 is: $num1"
         #76 echo "Num2 is: $num2"
         #77
-        #78 if (( num1 < 50 ))
+        #78 if (( num1 -eq 50 ))
         #79 then    echo "value is too small"
         #80 fi
 
