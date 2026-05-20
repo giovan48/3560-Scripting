@@ -1,0 +1,13 @@
+Current username: gal02
+Current date/Time: Tue May 19 06:47:03 PM PDT 2026
+Total number of lines: 6
+Total failed logins: 4
+Failed attempts
+Failed password for admin
+Failed password for root
+Failed password for admin
+Failed password for test
+--------------------------
+logins performed by admin
+Failed password for admin
+Failed password for admin

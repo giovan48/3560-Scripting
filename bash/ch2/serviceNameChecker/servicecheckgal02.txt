@@ -1,0 +1,13 @@
+Arguments provided: 4
+-----------------------------
+Checking service/process: bash
+Matchs Found: 4
+-----------------------------
+Checking service/process: ssh
+Matchs Found: 4
+-----------------------------
+Checking service/process: systemd
+Matchs Found: 12
+-----------------------------
+Checking service/process: firefox
+Matchs Found: 2

@@ -1,0 +1,6 @@
+Failed password for admin
+Accepted password for user1
+Failed password for root
+Failed password for admin
+Accepted password for gal02
+Failed password for test
