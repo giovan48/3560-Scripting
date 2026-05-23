@@ -1,0 +1,18 @@
+May 22 Failed login from 192.168.1.15
+May 22 Accepted login from 10.0.0.7
+May 22 Failed login from admin
+Jun 01 Accepted login from 172.16.0.8
+guest attempted login
+admin accessed secure shell
+root failed authentication
+unknown user detected
+Connection from 192.168.1.15 to 192.168.1.15 established
+Connection from 10.0.0.7 to 10.0.0.8 rejected
+Payload bytes: 0x41 0x42 0x90 0xFF
+NOP sled: 0x90 0x90 0x90 0x90
+Hex stream: 0x41 0x41
+May 22 Failed login from 172.16.0.9
+sshd[1024]: Failed password for root
+sudo[555]: session opened
+sshd[2048]: Accepted password for guest
+apache[88]: service started

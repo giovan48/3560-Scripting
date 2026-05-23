@@ -1,0 +1,56 @@
+May 22 10:14:01 sshd root login from 192.168.1.15 failed
+May 22 10:15:11 sshd admin login from 10.0.0.5 accepted
+May 22 10:16:20 sshd guest login from 192.168.1.99 failed
+Jun 01 09:11:00 sshd root login from 172.16.0.3 failed
+
+192.168.1.50 suspicious connection detected
+10.0.0.7 admin session opened
+172.16.0.9 unauthorized access
+
+admin -> admin
+guest -> root
+root -> root
+guest -> guest
+
+MD5 duplicated: a1b2c3d4 a1b2c3d4
+MD5 mismatch: deadbeef cafebabe
+HASH repeated: abc123 abc123
+
+NOP sled detected: 0x90 0x90 0x90 0x90
+Shellcode sequence: 0x90 0x90 0x90
+Attack pattern: 0x90 0x90 0x90 0x90 0x90
+
+Payload bytes: 0x41 0x42 0x90 0xFF 0xAA
+NOP sled: 0x90 0x90 0x90 0x90 0x90
+Hex short: 0x41 0x42
+
+May 22 Failed login from 192.168.1.15 failed
+May 22 Accepted login from 10.0.0.7 accepted
+May 22 Failed login from root failed
+Jun 01 Accepted login from 172.16.0.8 accepted
+
+Connection repeated: 10.0.0.1 10.0.0.1
+Connection repeated: 192.168.1.15 192.168.1.15 192.168.1.15
+Connection from 10.0.0.7 to 10.0.0.8 rejected
+
+ALERT: http://malicious.ru/dropper.exe downloaded
+SAFE: https://example.com/index.html
+Download from http://files.ru/update.exe
+Connection to safe-site.ca completed
+
+PAYLOAD: QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+ENCODED: SGVsbG8gV29ybGQh
+RANDOMDATA: ajshd8123==
+
+Process started: malware.exe
+Library loaded: kernel32.dll
+Document opened: notes.txt
+
+powershell.exe(4421)
+explorer.exe(888)
+svchost.exe started
+
+sshd[1024]: Failed password for root
+sudo[55]: session opened
+apache[88]: service started
+kernel[9999]: warning issued

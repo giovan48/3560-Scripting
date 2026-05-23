@@ -1,0 +1,7 @@
+Enter your name
+Welcome Giovan!!!
+This is the current username: gal02
+This is the current directory: /home/gal02/ch2_workshop/practice
+Enter a filename
+This is the filename entered: login_report.txt
+The file exists!!!

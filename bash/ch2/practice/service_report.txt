@@ -1,0 +1,5 @@
+Enter service/Process name
+service/process entered: bash
+Current Linux username: gal02
+Current date time: Tue May 12 06:52:38 PM PDT 2026
+Service is running

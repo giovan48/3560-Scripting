@@ -15,4 +15,4 @@ echo "Machine Type: $(uname -m)"
 echo "Full uname Output: $(uname -a)"
 echo ""
 echo ""
-#uname --help
+uname --help

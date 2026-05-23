@@ -1,0 +1,12 @@
+May 22 firewall blocked connection from 10.0.0.25
+Accepted login from 10.0.0.134
+Failed login from 10.0.0.50
+SSH session started from 192.168.1.10
+Ping detected from 10.0.0.25
+Unauthorized scan from 172.16.0.8
+Backup server IP: 10.0.0.134
+Admin connected from 10.0.1.25
+10.0.0.25 accessed secure service
+10.0.0.134 disconnected
+Potential attack from 10.0.0.200
+DHCP assigned 10.0.0.25

@@ -1,0 +1,5 @@
+. → ANY ONE character
+? → previous item is OPTIONAL
+* → previous item repeated zero or more
++ → previous item repeated one or more
+

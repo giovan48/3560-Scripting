@@ -1,0 +1,11 @@
+login_time=3.14 seconds
+cpu_load=.75
+packet_loss=0.5
+scan_score=10.
+empty_decimal=.
+normal_integer=25
+ip_address=192.168.1.10
+version=v2.0
+error_code=404
+price=99.99
+dot_in_text=failed.login

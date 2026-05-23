@@ -1,0 +1,5 @@
+Filename entered: login_report.txt
+Current Linux username: gal02
+Current date and time: Tue May 12 07:23:35 PM PDT 2026
+File is readable
+File is writable

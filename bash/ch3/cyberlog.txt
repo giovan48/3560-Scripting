@@ -1,0 +1,18 @@
+May 20 08:11:03 kali sshd[1201]: Failed password for root from 192*168.1.15 port 50422
+May 20 08:12:44 kali sshd[1205]: Accepted password for giovan from 192.168.1.22 port 51001
+May 20 08:13:10 kali sudo: giovan : COMMAND=/usr/bin/apt update
+May 20 08:14:51 kali sshd[1210]: Failed password for admin from 10.0.0.55 port 42211
+May 20 08:15:33 kali nginx: GET /index.html 200
+May 20 08:16:41 kali sshd[1218]: Failed password for test from 172.16.0.10 port 61231
+May 20 08:17:02 kali kernel: USB device connected
+May 20 08:18:55 kali sshd[1225]: Accepted password for root from 192.168.1.100 port 51555 refuse
+May 20 08:19:40 kali sudo: root : COMMAND=/usr/bin/systemctl restart apache2
+May 20 08:20:12 kali sshd[1231]: Failed password for guest from 203.0.113.25 port 60000
+May 20 08:22:10 kali service: restarting services
+May 20 08:25:00 kali sshd[1300]: Failed password for admin from 10.10.10.10 port 50000
+May 20 08:21:01 kali sshd[1240]: rt login attempt detected
+May 20 08:21:44 kali sshd[1241]: rot login attempt detected
+May 20 08:22:10 kali sshd[1242]: root login attempt detected
+May 20 08:22:33 kali sshd[1243]: rooot login attempt detected
+May 20 08:23:02 kali sshd[1244]: rtt suspicious pattern detected
+May 20 08:23:44 kali sshd[1245]: robot account created

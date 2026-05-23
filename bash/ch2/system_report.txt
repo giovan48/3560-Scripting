@@ -1,0 +1,6 @@
+enter name
+Entered Name is: Giovan
+Welcome Giovan !!!
+Current user: gal02
+enter filename
+The file exists

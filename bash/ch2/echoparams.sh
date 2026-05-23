@@ -18,12 +18,6 @@
 ## Parameters in bash
 ## Input
 ## conditionals
-##checking if a file exists on the filesystem
-##Testing  strings/literal variables
-##Testing numeric variables
-
-
-
 
 ##Parameters in bash
 echo "This is script's name: $0"
@@ -94,7 +88,6 @@ fi
 echo "Currrent directory: $(pwd)"
 cd /home/gal02/ch1_workshop; ls
 echo "after change directory is: $(pwd)"
-
 
 
 
