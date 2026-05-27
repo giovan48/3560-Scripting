@@ -1,0 +1,91 @@
+Current username: gal02
+Hostname: Ubuntu3560
+Local Ip: 10.1.10.59
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=114 time=10.3 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=114 time=10.1 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=114 time=12.2 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=114 time=9.21 ms
+Number of running process: 238
+Number of systemd process: 11
+First shell: /bin/bash
+Number of files ending in .conf: 260
+Match paths .sh: /home/gal02/.local/share/Trash/files/lab1gal02/ubuntugal02.sh
+/home/gal02/.local/share/Trash/files/ubuntutest.sh
+/home/gal02/.local/share/Trash/files/gal02lab1 (2)/lab1b/ubuntu2gal02.sh
+/home/gal02/.local/share/Trash/files/gal02lab1 (2)/lab1a/ubuntugal02.sh
+/home/gal02/ch1/mytask.sh
+/home/gal02/ch2/practice1.sh
+/home/gal02/ch2/practice/service_check.sh
+/home/gal02/ch2/practice/permission_check.sh
+/home/gal02/ch2/practice/osdetect.sh
+/home/gal02/ch2/practice/lab1gal02.sh
+/home/gal02/ch2/practice/user_report.sh
+/home/gal02/ch2/practice/script1.sh
+/home/gal02/ch2/practice/function.sh
+/home/gal02/ch2/practice/script2.sh
+/home/gal02/ch2/practice/loop1.sh
+/home/gal02/ch2/practice/failed_login_monitor.sh
+/home/gal02/ch2/practice/match.sh
+/home/gal02/ch2/myscript.sh
+/home/gal02/ch2/ch2_workshop/argcnt.sh
+/home/gal02/ch2/ch2_workshop/osdetect.sh
+/home/gal02/ch2/ch2_workshop/detect_os2.sh
+/home/gal02/ch2/echoparams.sh
+/home/gal02/lab1b/ubuntu2gal02.sh
+/home/gal02/lab1a/ubuntugal02.sh
+/home/gal02/gal02lab1/lab1b/ubuntu2gal02.sh
+/home/gal02/gal02lab1/lab1a/testubuntugal02.sh
+/home/gal02/gal02lab1/lab1a/ubuntugal02.sh
+/home/gal02/sharedgal02/00_Bash/ch1/basics.sh
+/home/gal02/sharedgal02/00_Bash/ch1/mytask.sh
+/home/gal02/sharedgal02/00_Bash/ch2/ch2_workshop/argcnt.sh
+/home/gal02/sharedgal02/00_Bash/ch2/ch2_workshop/detect_os2.sh
+/home/gal02/sharedgal02/00_Bash/ch2/ch2_workshop/osdetect.sh
+/home/gal02/sharedgal02/00_Bash/ch2/echoparams.sh
+/home/gal02/sharedgal02/00_Bash/ch2/myscript.sh
+/home/gal02/sharedgal02/00_Bash/ch2/practice/failed_login_monitor.sh
+/home/gal02/sharedgal02/00_Bash/ch2/practice/function.sh
+/home/gal02/sharedgal02/00_Bash/ch2/practice/lab1gal02.sh
+/home/gal02/sharedgal02/00_Bash/ch2/practice/loop1.sh
+/home/gal02/sharedgal02/00_Bash/ch2/practice/match.sh
+/home/gal02/sharedgal02/00_Bash/ch2/practice/osdetect.sh
+/home/gal02/sharedgal02/00_Bash/ch2/practice/permission_check.sh
+/home/gal02/sharedgal02/00_Bash/ch2/practice/script1.sh
+/home/gal02/sharedgal02/00_Bash/ch2/practice/script2.sh
+/home/gal02/sharedgal02/00_Bash/ch2/practice/service_check.sh
+/home/gal02/sharedgal02/00_Bash/ch2/practice/user_report.sh
+/home/gal02/sharedgal02/00_Bash/ch2/practice1.sh
+/home/gal02/sharedgal02/00_Bash/ch2/workshop1/conditonals.sh
+/home/gal02/sharedgal02/00_Bash/ch2/workshop1/loops.sh
+/home/gal02/sharedgal02/00_Bash/ch2/workshop1/myscript.sh
+/home/gal02/sharedgal02/00_Bash/ch2/workshop1/workshop2.sh
+/home/gal02/sharedgal02/00_Bash/ch3/lab0gal02/script1.sh
+/home/gal02/sharedgal02/00_Bash/ch3/practices/exercise1.sh
+/home/gal02/sharedgal02/00_Bash/ch3/practices/exercise2.sh
+/home/gal02/sharedgal02/00_Bash/ch3/practices/exercise3.sh
+/home/gal02/sharedgal02/00_Bash/ch3/regex.sh
+/home/gal02/sharedgal02/00_Bash/ch3/script1.sh
+/home/gal02/sharedgal02/00_Bash/ch3/workshop/ws1.sh
+/home/gal02/sharedgal02/00_Bash/ch3/workshop/ws2.sh
+/home/gal02/sharedgal02/00_Bash/ch3/workshop/ws3.sh
+/home/gal02/sharedgal02/00_Bash/ch3/workshop/ws4.sh
+/home/gal02/sharedgal02/00_Bash/ch3/workshop/ws5.sh
+/home/gal02/sharedgal02/00_Bash/ch3/workshop1/workshop3.sh
+/home/gal02/sharedgal02/00_Bash/notes/basics.sh
+/home/gal02/sharedgal02/00_Bash/notes/conditonals.sh
+/home/gal02/sharedgal02/00_Bash/notes/loops.sh
+/home/gal02/sharedgal02/00_Bash/notes/regex.sh
+/home/gal02/sharedgal02/00_Bash/practices/Exercise1-ProcessReport/processreportgal02.sh
+/home/gal02/sharedgal02/00_Bash/practices/Exercise2-FailedLoginReport/failedlogingal02.sh
+/home/gal02/sharedgal02/00_Bash/practices/failedcounter.sh
+/home/gal02/sharedgal02/00_Bash/practices/script1.sh
+/home/gal02/sharedgal02/00_Bash/practices/serviceNameChecker/servicecheckgal02.sh
+/home/gal02/sharedgal02/resources/gal02lab1/lab1a/ubuntugal02.sh
+/home/gal02/sharedgal02/resources/gal02lab1/lab1b/ubuntu2gal02.sh
+/home/gal02/sharedgal02/resources/ubuntu2gal02.sh
+/home/gal02/sharedgal02/resources/ubuntugal02.sh
+/home/gal02/practices/lab1gal02/part2gal02/part2gal02.sh
+/home/gal02/practices/lab1gal02/part1gal02/part1gal02.sh
+/home/gal02/Documents/myscript.sh
+/home/gal02/lab1a_0/ubuntu2gal02.sh
+/home/gal02/lab1a_0/ubuntugal02.sh
