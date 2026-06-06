@@ -1,0 +1,33 @@
+#This is the SGL 
+#SGL username 
+	sgl gal02
+#lab files
+	lab1gal02.sh
+	lab1gal02.txt
+#midterm - final
+	midtermgal02.sh
+	midtergal02.txt
+	finalgal02.sh
+	finalgal02.txt
+#linux log files
+	linuxlab1gal02.txt
+	linuxmidtermgal02.txt
+	linuxfinalgal02.txt
+#Folder names
+	lab1gal02/
+	midtermgal02/
+#Compressed Files
+	lab1gal02.tar.gz
+	midtermgal02.tar.gz
+	#Compress a folder
+		tar -czvf lab1gal02.tar.gz lab1gal02/
+	#Uncompress a folder
+		tar -xzvf lab1gal02.tar.gz
+#Complete structure
+	lab1gal02/
+	├── lab1gal02.sh
+	├── lab1gal02.txt
+	├── linuxlab1gal02.txt
+	└── screenshots/
+#Compress structure
+	lab1gal02.tar.gz

@@ -98,6 +98,104 @@ do
     (( FAILED++ ))
 done
 
+#========================================================
+echo "================================================="
+echo "[ 2 ] for LOOP"
+echo "================================================="
+echo "Purpose:"
+echo "- Repeat commands multiple times"
+echo "- Iterate over lists"
+echo "- Process files/users/IPs"
+echo
+echo "Common Uses:"
+echo "- scan multiple IPs"
+echo "- analyze usernames"
+echo "- process log entries"
+echo "- automate commands"
+echo
+
+#
+#---------------------
+#[ PI-1 Ubuntu - ssh - Kali]
+#kali systemctl status ssh
+#ubuntu sudo nano /etc/hosts  XX.XX.XX.XX kalihost
+#ubuntu sshh gal02@kalihost ls -l
+#---------------------
+#[ PII-2 Conditional Directory]
+#---------------------
+#!/bin/bash
+#if [ -f "/usr/bin/flameshot" ]
+#then
+#	echo "App exists, user can run the command"
+#else
+#	echo "App does not exist"
+#	sudo apt install flameshot -y
+#fi
+#----------------------
+#[ PIII-3 While Loop l2 ]
+#!/bin/bash
+echo "Enter Name"
+read gal02_name
+echo "Enter Student ID"
+read gal02_stid
+clear
+gal02_user=$(echo "nusergal02.txt")
+gal02_size=$(echo "dskspacegal02.txt")
+functions
+gal02_find_users()
+{
+         gal02_nuser=$(cut -d ':' -f1 /etc/passwd | wc -l)
+         echo "Number of Users: $gal02_nuser " | tee "$gal02_user"
+}
+
+gal02_find_disk()
+{
+	gal02_disk=$(df -h /root/ | tr -s ' ' | cut -d ' ' -f3 | awk 'NR==2')
+	echo "Disk space used by root: $gal02_disk" | tee "$gal02_size"
+}
+while loop
+gal02_count=$(echo "0")
+while [ "$gal02_count" -eq 0 ]
+do
+	echo "**********************"
+	echo "Name: $gal02_name"
+	echo "Student ID: $gal02_stid"
+	echo "Script's Name: $0"
+	echo "**********************"
+	echo "1-Display user info"
+	echo "2-Display Disk Space"
+	echo "3-Exit"
+	echo "*********************"
+	echo "Enter option"
+	read gal02_opt
+	#Case
+	case $gal02_opt in	
+	1)
+		echo "Option $gal02_opt: display user info"
+		gal02_find_users
+		echo ""
+		#let gal02_count++
+		;;
+	2)
+		echo "Option $gal02_opt: display disk space"
+		gal02_find_disk
+		#let gal02_count++
+		echo ""
+		;;
+	3)
+		echo "Option $gal02_opt: Exit"
+		echo "Thanks"
+		let gal02_count++
+		;;
+	*)
+		echo "Wrong option. Try it again"
+		echo "--------------------------"
+		echo ""
+		;;
+	esac	
+done
+
+#=======================================================
 
 # =========================================================
 # [ 3 ] until LOOP
