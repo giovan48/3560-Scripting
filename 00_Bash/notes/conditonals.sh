@@ -99,6 +99,19 @@ echo "-ge  greater/equal"
 echo "-le  less/equal"
 
 
+#| Test | Meaning              | Example              |
+#| ---- | -------------------- | -------------------- |
+#| `-f` | Regular file exists  | `[ -f file.txt ]`    |
+#| `-d` | Directory exists     | `[ -d /home/gal02 ]` |
+#| `-e` | Exists (file or dir) | `[ -e test ]`        |
+#| `-r` | Readable             | `[ -r file.txt ]`    |
+#| `-w` | Writable             | `[ -w file.txt ]`    |
+#| `-x` | Executable           | `[ -x script.sh ]`   |
+#| `-s` | File not empty       | `[ -s log.txt ]`     |
+
+
+
+
 
 echo
 echo "================================================="

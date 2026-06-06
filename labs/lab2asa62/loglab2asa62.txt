@@ -1,0 +1,229 @@
+    1  2026-01-15 23:35:30 history
+    2  2026-01-15 23:36:44 ls -l/cdrom
+    3  2026-01-15 23:36:57 ls -1 /cdrom
+    4  2026-01-15 23:38:12 ls -1ah ~/.bash_history
+    5  2026-01-15 23:44:36 wc -1 ~/.bash_history
+    6  2026-01-15 23:45:28 wc -l ~/.bash_history
+    7  2026-01-15 23:46:32 nano ~/.bashrc
+    8  2026-01-25 13:00:47 echo $SHELL
+    9  2026-01-25 13:01:56 LS
+   10  2026-01-25 13:01:58 ls
+   11  2026-01-25 13:02:10 nano myscript.sh
+   12  2026-01-25 13:02:25 ls
+   13  2026-01-25 13:03:32 sudo chmod  +X myscript.sh
+   14  2026-01-25 13:03:41 ls
+   15  2026-01-25 13:04:00 ls -l
+   16  2026-01-25 13:05:03 cat myscript.sh
+   17  2026-01-25 13:05:11 ./myscript.sh
+   18  2026-01-25 13:05:40 sudo +x myscript.sh
+   19  2026-01-25 13:07:29 nano myscript.sh
+   20  2026-01-25 13:07:54 ls
+   21  2026-01-25 13:08:08 cat myscript.sh
+   22  2026-01-25 13:08:29 pwd
+   23  2026-01-25 13:10:26 nano myscript.sh
+   24  2026-01-25 13:12:16 ./myscript.sh
+   25  2026-01-25 13:12:30 cat myscript.sh
+   26  2026-01-25 13:18:44 sudo apt update
+   27  2026-01-25 13:21:45 sudo apt install -y build essential dkms linux-headers-$(uname -r)
+   28  2026-01-25 13:22:50 sudo apt install -y build-essential dkms linux-headers-$(uname -r)
+   29  2026-01-25 13:41:16 sudo mkdir -p /media/cdrom
+   30  2026-01-25 13:41:42 sudo mount /dev/cdrom/media/cdrom
+   31  2026-01-25 13:42:26 sudo mount /dev/cdrom /media/cdrom
+   32  2026-01-25 13:43:05 ls /media/cdrom
+   33  2026-01-25 13:43:22 sudo reboot
+   34  2026-01-25 13:47:32 lsmod | grep vbox
+   35  2026-01-25 13:48:16 vboxclient --clipboard
+   36  2026-01-25 13:49:26 sudo apt install -y virtualbox-guest-utils virtualbox-guest-x11
+   37  2026-01-25 13:49:50 vboxclient --clipboard
+   38  2026-01-25 13:50:20 sudo reboot
+   39  2026-01-25 13:57:46 which vboxclient
+   40  2026-01-25 14:03:57 sudo apt install -y virtualbox-guest-utils virtualbox-guest-x11 virtualbox-guest-dkms
+   41  2026-01-25 14:04:54 sudo add-apt-repository universe
+   42  2026-01-25 14:05:13 sudo apt update
+   43  2026-01-25 14:05:53 sudo apt install -y virtualbox-guest-utils virtualbox-guest-x11
+   44  2026-01-25 14:07:54 which VBoxClient
+   45  2026-01-25 14:08:14 VBoxClient --clipboard
+   46  2026-01-25 14:08:27 VBoxClient --all
+   47  2026-01-25 14:08:41 VBoxClient -a11
+   48  2026-01-25 14:09:46 sudo reboot
+   49  2026-01-26 16:53:25 ls ~/sharedasa62
+   50  2026-01-26 16:54:08 sudo usermod-aG vboxsf $USER
+   51  2026-01-26 16:55:14 ls media
+   52  2026-01-26 16:55:21 ls /media
+   53  2026-01-26 16:55:46 sudo usermod -aG vboxsf $USER
+   54  2026-01-26 16:55:51 sudo reboot
+   55  2026-01-29 13:38:52 ls ~/sharedasa62
+   56  2026-01-29 13:39:00 history
+   57  2026-01-29 13:40:05 history -a
+   58  2026-01-29 13:40:07 history
+   59  2026-01-29 13:40:37 echo $HISTFILE
+   60  2026-01-29 13:41:05 history -a
+history
+   61  2026-01-30 08:16:19 ls /media
+   62  2026-01-30 08:17:04 sudo usermod -aG vboxsf asa62
+   63  2026-01-30 08:17:14 sudo reboot
+   64  2026-01-30 08:18:18 mkdir -p ~/sharedasa62
+   65  2026-01-30 08:18:21 ls ~
+   66  2026-01-30 08:18:59 sudo mount --bind/media/sf_sharedasa62 /home/asa62/sharedasa62
+   67  2026-01-30 08:20:17 sudo mount -t vboxsf sharedasa62 /home/asa62/sharedasa62
+   68  2026-01-30 08:20:30 sudo reboot
+   69  2026-02-02 01:07:21 history
+   70  2026-02-02 01:09:11 echo $HISTFILE
+history
+   71  2026-02-02 01:25:04 history
+   72  2026-02-02 01:33:28 echo $HISTCONTROL
+   73  2026-02-02 01:33:52 export $HISTCONTROL=
+   74  2026-02-02 01:34:24 ~./bashrc
+   75  2026-02-02 01:34:36 ~/.bashrc
+   76  2026-02-02 01:38:18 source ~/.bashrc
+   77  2026-02-02 01:39:36 nano ~/.bashrc
+   78  2026-02-02 01:41:43 echo $HISTCONTROL
+   79  2026-02-02 01:42:57 echo $HOME
+   80  2026-02-02 01:43:13 ls -la ~/.bashrc
+   81  2026-02-02 01:45:00 grep -n "HISTCONTROL" ~/.bashrc ~/.profile ~/.bash_profile 2>/dev/null
+   82  2026-02-02 01:45:58 grep -n "HISTCONTROL" /etc/bash.bashrc /etc/profile 2>/dev/null
+   83  2026-02-02 01:47:07 echo $HISTCONTROL
+   84  2026-02-02 01:48:00 grep -RIn "HISTCONTROL" /etc/profile.d /etc /etc/skel 2>/dev/null | head -n 20
+   85  2026-02-02 01:49:21 grep -n "ignoreboth" ~/.bashrc ~/.profile ~/.bash_profile ~/.bash_login 2>/dev/null
+   86  2026-02-02 01:50:33 nano ~/.bashrc
+   87  2026-02-02 01:52:15 ~/.bash_history
+   88  2026-02-02 01:52:59 cat ~/.bash_history
+   89  2026-02-02 01:53:40 history
+   90  2026-02-02 01:53:53 history > history.txt
+   91  2026-02-02 01:56:08 history
+   92  2026-02-02 01:56:20 date
+history
+   93  2026-02-03 12:04:32 ssh kali@kalihost
+   94  2026-02-03 12:05:25 ssh kali@192.168.1.182
+   95  2026-02-03 12:10:37 ssh kali@192.168.1.182
+   96  2026-02-03 12:23:23 ssh asa62@192.168.1.182
+   97  2026-02-03 12:37:46 history
+   98  2026-02-03 12:40:51 dtae
+   99  2026-02-03 12:40:53 date
+  100  2026-02-03 17:21:57 ls
+  101  2026-02-03 17:22:08 history
+  102  2026-02-03 17:22:15 date
+  103  2026-02-03 17:22:39 mkdir -p /home/asa62/plant
+  104  2026-02-03 17:23:07 sudo mount -t vboxsf plant /home/asa62/plant
+  105  2026-02-03 17:23:21 ~/.asa62
+  106  2026-02-03 17:23:25 cd
+  107  2026-02-03 17:23:42 ls ~
+  108  2026-02-03 17:24:47 ls /media/
+  109  2026-02-03 17:25:02 ls /home/asa62
+  110  2026-02-03 17:33:50 ssh asa62@10.0.2.15
+  111  2026-02-03 17:41:30 ssh asa62@10.0.2.15
+  112  2026-02-03 17:43:26 ssh asa62@10.0.2.15
+  113  2026-02-03 17:55:02 history
+  114  2026-02-03 17:55:30 ssh asa62@140.161.215.95
+  115  2026-02-03 19:18:43 history
+  116  2026-02-03 19:20:09 touch command.txt
+  117  2026-02-03 19:20:35 mkdir command.txt
+  118  2026-02-03 19:20:45 touch command.txt
+  119  2026-02-03 19:22:30 ssh asa62@192.168.56.101
+  120  2026-02-03 19:31:06 nano tuesday.sh
+  121  2026-02-03 19:40:15 chmod 777 tuesday.sh
+  122  2026-02-03 19:40:25 ./tuesday.sh
+  123  2026-02-03 19:41:05 nano tuesday.sh
+  124  2026-02-03 19:45:58 ./tuesday.sh
+  125  2026-02-03 19:47:33 history > practice.txt
+  126  2026-02-03 19:48:32 ./monday.sh
+  127  2026-02-03 19:48:53 nano monday.sh
+  128  2026-02-03 19:51:53 chmod +x monday.sh
+  129  2026-02-03 19:51:59 ./monday.sh
+  130  2026-02-03 19:52:50 history > practice.txt
+  131  2026-02-03 20:01:03 nano monday.sh
+  132  2026-02-03 20:02:21 ./monday.sh
+  133  2026-02-03 20:02:32 ff
+  134  2026-02-03 20:12:26 tar -czvf mark.tar.gz mark
+  135  2026-02-03 20:13:32 exit
+  136  2026-02-03 18:07:28 history
+  137  2026-02-03 18:08:05 ssh asa62@192.168.56.101
+  138  2026-02-03 18:09:42 ls ~
+  139  2026-02-03 18:36:32 mkdir -p /home/asa62/plant
+  140  2026-02-03 18:36:41 sudo mount -t vboxsf plant /home/asa62/plant
+  141  2026-02-03 18:36:51 ls ~
+  142  2026-02-04 13:49:34 date
+  143  2026-02-04 13:49:37 history
+  144  2026-02-04 13:55:42 mkdir -p /home/asa62/flower
+  145  2026-02-04 13:56:01 sudo mount -t vboxsf flower /home/asa62/flower
+  146  2026-02-04 13:56:13 ls ~
+  147  2026-02-04 13:56:51 nano wednesday.sh
+  148  2026-02-04 13:57:50 chmod +x wednesday.sh
+  149  2026-02-04 13:58:06 ./wednesday.sh
+  150  2026-02-04 13:58:31 nano wednesday.sh
+  151  2026-02-04 13:59:14 ./wednesday.sh
+  152  2026-02-04 14:00:37 nano thursday.sh
+  153  2026-02-04 14:01:17 chmod +x thursday.sh
+  154  2026-02-04 14:01:26 ./thursday.sh
+  155  2026-02-04 14:15:42 history > flowerhistory.txt
+  156  2026-02-04 14:38:08 ssh asa62@192.168.56.101
+  157  2026-02-04 15:13:40 tar -czvf flower.tar.gz flower
+  158  2026-02-04 15:14:11 exit
+  159  2026-02-05 13:21:56 date
+  160  2026-02-05 13:21:58 history
+  161  2026-02-05 13:22:14 mkdir -p /home/asa62/pink
+  162  2026-02-05 13:22:38 sudo mount -t vboxsf pink /home/asa62/pink
+  163  2026-02-05 13:22:46 ls ~
+  164  2026-02-05 13:23:35 sudo whoami
+  165  2026-02-05 13:25:49 exit
+  166  2026-02-05 13:34:30 history
+  167  2026-02-05 13:34:34 sudo whoami
+  168  2026-02-05 13:35:24 sudo systemctl status ssh
+  169  2026-02-05 13:35:43 sudo systemctl enable ssh
+  170  2026-02-05 13:37:23 sudo apt update
+  171  2026-02-05 13:37:46 sudo apt install openssh-server -y
+  172  2026-02-05 13:38:03 sudo systemctl start ssh
+  173  2026-02-05 13:38:47 dpkg -l | grep openssh
+  174  2026-02-05 13:39:48 ping -c 3 8.8.8.8
+  175  2026-02-05 13:43:28 exit
+  176  2026-02-05 13:48:40 history
+  177  2026-02-05 13:49:47 ip a
+  178  2026-02-05 13:50:20 hostname -I
+  179  2026-02-05 13:56:22 whoami
+  180  2026-02-05 13:56:34 sudo -i
+  181  2026-02-05 14:16:11 sudo apt update
+  182  2026-02-05 14:16:31 sudo apt install openssh-server -y
+  183  2026-02-05 14:16:49 sudo systemctl start ssh
+  184  2026-02-05 14:17:01 sudo systemctl enable ssh
+  185  2026-02-05 14:17:10 sudo systemctl status ssh
+  186  2026-02-05 14:21:54 sudo nano /etc/hosts
+  187  2026-02-05 14:22:15 hostname -I
+  188  2026-02-05 14:22:50 sudo nano /etc/hosts
+  189  2026-02-05 14:23:49 cat /etc/hosts
+  190  2026-02-05 14:28:42 whoami
+  191  2026-02-05 14:29:01 ping www.google.com
+  192  2026-02-05 14:31:13 ssh asa62@10.0.2.15
+  193  2026-02-05 14:33:41 ssh asa62@10.0.2.15
+  194  2026-02-05 14:37:27 hostname -I
+  195  2026-02-05 14:38:58 exit
+  196  2026-02-05 14:43:54 hostname -I
+  197  2026-02-05 14:44:07 sudo systemctl status ssh
+  198  2026-02-05 14:44:44 ssh asa62@140.161.215.95
+  199  2026-02-05 14:47:40 mkdir -p /home/asa62/pink
+  200  2026-02-05 14:47:56 sudo mount -t vboxsf pink /home/asa62/pink
+  201  2026-02-05 14:48:50 sudo systemctl status ssh
+  202  2026-02-05 14:50:02 sudo nano /etc/hosts
+  203  2026-02-05 14:51:40 nano friday.sh
+  204  2026-02-05 14:55:23 nano sat.sh
+  205  2026-02-05 15:00:21 ./sat.sh
+  206  2026-02-05 15:01:42 chmod +x sat.sh
+  207  2026-02-05 15:01:44 ./sat.sh
+  208  2026-02-05 15:04:24 exit
+  209  2026-02-06 08:08:06 history
+  210  2026-02-06 08:32:28 sudo systemctl status ssh
+  211  2026-02-06 08:32:50 sudo nano /etc/hosts
+  212  2026-02-06 08:33:38 ssh asa62@kalihost
+  213  2026-02-06 08:39:12 sudo nano /etc/hosts
+  214  2026-02-06 08:41:45 nano checkappasa62.sh
+  215  2026-02-06 08:42:15 nano checkappasa62.sh
+  216  2026-02-06 08:43:46 chmod +x checkappasa62.sh
+  217  2026-02-06 08:44:07 ./checkappasa62.sh
+  218  2026-02-06 08:44:18 flameshot gui
+  219  2026-02-06 08:46:20 flameshot gui
+  220  2026-02-06 08:49:30 nano servermonitorasa62.sh
+  221  2026-02-06 08:49:52 chmod +x servermonitorasa62.sh
+  222  2026-02-06 08:50:10 nano servermonitorasa62.sh
+  223  2026-02-06 09:00:36 ./servermonitor.sh
+  224  2026-02-06 09:00:43 ./servermonitorasa62.sh
+  225  2026-02-06 09:01:00 ./servermonitorasa62.sh
+  226  2026-02-06 09:05:15 history > loglab2asa62.txt
